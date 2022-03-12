@@ -1,22 +1,3 @@
-// номер 1
-export function sumMult(a, b) {
-    // console.log(a + b);
-    // console.log(a * b);
-    return [a + b, a * b];
-}
-export function sumLength(s1, s2) {
-    // console.log(s1.length + s2.length);
-    return s1.length + s2.length;
-}
-export function sumOfNumbers(n) {
-    const str = String(n);
-    let sum = 0;
-    for (let i = 0; i < str.length; i++) {
-        sum += Number(str[i]);
-    }
-    return sum;
-}
-// номер 2
 export function max(a, b) {
     return a > b ? a : b;
 }
@@ -50,4 +31,3 @@ export function monthName(n) {
 export function isCircleInSquare(cr, sq) {
     return (Math.sqrt(cr / Math.PI) < Math.sqrt(sq) / 2);
 }
-// номер 3
