@@ -14,6 +14,7 @@ module.exports = {
     rules: {
         'linebreak-style': 'off',
         'no-plusplus': 'off',
+        'no-useless-escape': 'off',
         indent: [2, 4, { SwitchCase: 1 }],
         'max-len': ['error', { ignoreComments: true }],
     },
