@@ -2,13 +2,13 @@ import { isRight, lengthAndSquare, roots } from './index9';
 
 describe('isRight', () => {
     it('3,4,5 - true', () => {
-        expect(isRight(3, 4, 5)).toBe('true');
+        expect(isRight(3, 4, 5)).toBe(true);
     });
     it('6,3,4 - false', () => {
-        expect(isRight(6, 3, 4)).toBe('false');
+        expect(isRight(6, 3, 4)).toBe(false);
     });
     it('12, 5, 13 - true', () => {
-        expect(isRight(4, 8)).toBe('true');
+        expect(isRight(12, 5, 13)).toBe(true);
     });
 });
 
