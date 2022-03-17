@@ -4,6 +4,6 @@ export function isDate(str) {
 }
 
 export function isEmail(str) {
-    const reg = /[\da - z_\-\.] +@[\da - z]+\.[a - z] + /;
+    const reg = /[\da-z\.]+@[\da-z]+\.[a-z]+/;
     return reg.test(str);
 }
