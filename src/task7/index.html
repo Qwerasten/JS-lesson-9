@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
 
 <head>
     <title>Задание №7</title>
+
 </head>
 
 <body>
@@ -11,29 +13,9 @@
     <p>Другой параграф</p>
     <input type="text" id="paragraph_text" placeholder="Введите текст">
     <button id="add_paragraph" style="visibility:hidden">Создать параграф</button>
-    <script>
-        const input = document.getElementById('paragraph_text');
-        const button = document.getElementById('add_paragraph');
-        let parCounter = 3;
-        input.addEventListener("input", () => {
-            if (input.value) {
-                button.style.visibility = "visible";
-            }
-            else {
-                button.style.visibility = "hidden";
-            }
-        })
-        button.addEventListener("click", () => {
-            let allParagraps = document.getElementsByTagName('p');
-            let par = document.createElement('p');
-            par.textContent = input.value;
-            input.before(par);
-            parCounter++;
-            if (parCounter > 5) {
-                allParagraps[0].remove();
-            }
-        });
-    </script>
+
+    <script src="src/index.js" type="module"></script>
+
 </body>
 
 </html>
