@@ -1,7 +1,9 @@
 export function isRight(a, b, c) {
-    if ((a * a + b * b === c * c)
-        || (a * a + c * c === b * b)
-        || (b * b + c * c === a * a)) {
+    if (
+        a * a + b * b === c * c ||
+    a * a + c * c === b * b ||
+    b * b + c * c === a * a
+    ) {
         return true;
     }
     return false;
@@ -21,7 +23,7 @@ export function roots(a, b, c) {
         return [x1, x2];
     }
     if (d === 0) return -b / (2 * a);
-    return 'Действительных корней нет';
+    return "Действительных корней нет";
 }
 
 /* console.log(isRight(3, 4, 6));

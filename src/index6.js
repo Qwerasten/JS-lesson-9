@@ -2,7 +2,7 @@ export function diff(a, b) {
     return Math.abs(a - b);
 }
 export function isWord(str) {
-    return str.indexOf(' ') === -1;
+    return str.indexOf(" ") === -1;
 }
 
 export function pow(x, n) {

@@ -10,7 +10,7 @@ export function multBy7(n) {
         console.log(`7 x ${i} = ${7 * i}`);
     } */
     if (n > 0 && n <= 10) return `7 x ${n} = ${7 * n}`;
-    return 'Out of Range';
+    return "Out of Range";
 }
 export function average(n) {
     let sum = 0;

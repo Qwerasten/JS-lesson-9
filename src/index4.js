@@ -6,7 +6,7 @@ export function getUser(userAge, userName) {
 export function getAdmin(user) {
     const admin = {};
     Object.assign(admin, user);
-    admin.role = 'admin';
+    admin.role = "admin";
     return admin;
 }
 

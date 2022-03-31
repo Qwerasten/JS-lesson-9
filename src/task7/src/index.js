@@ -1,6 +1,4 @@
-import {
-    addChangeVisibilityListener, addClickListener
-} from './functions.js'
+import { addChangeVisibilityListener, addClickListener } from "./functions.js";
 
-addChangeVisibilityListener()
-addClickListener()
+addChangeVisibilityListener();
+addClickListener();
